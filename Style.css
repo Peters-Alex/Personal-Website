@@ -1,0 +1,14 @@
+nav {
+    font-size: larger;
+    font-style:unset;
+}
+body {
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    margin: 1px;
+}
+::content {
+    align-content: center;
+}
