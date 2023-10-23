@@ -7,8 +7,11 @@ body {
     padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 75px;
-    margin: 1px;
+    border: 0px solid gold
 }
-::content {
-    align-content: center;
+body{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
