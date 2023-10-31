@@ -12,6 +12,9 @@ nav{
     list-style-type: squere;
     margin: 10px 20px;
 }
+body{
+    background-image: url();
+}
 body {
     padding-left: 25px;
     padding-right: 50px;
@@ -30,5 +33,39 @@ body{
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-   
+    display: inline-block;
+    margin-inline-end: 5%;
 }
+.collab{
+    background-color: bisque;
+    padding: 6% 5px 2em;
+    margin: 105px;
+    width: 350px;
+    height: 355px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 2cm;
+    border-style: double;
+    border-width: .5cm;
+
+}
+.collab {
+    font-size: x-large;
+    background-color: aliceblue;
+}
+.container{
+    display: inline-flex;
+    flex-direction: row;  
+}
+
+.row {
+    background-color: rgb(161, 122, 122);
+    padding: 100px;
+    height: 300px; 
+    font-size: x-large;
+    border-radius: 2cm;
+    border-style: double;
+    border-width: .5cm;
+}
+
