@@ -13,7 +13,8 @@ nav{
     margin: 10px 20px;
 }
 body{
-    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    size-adjust: 100px;
 }
 body {
     padding-left: 25px;
@@ -69,3 +70,10 @@ body{
     border-width: .5cm;
 }
 
+@media (max-width: 1000px) {
+    head {
+        display: flex;
+        flex-direction: column;
+        margin: 0 25%
+    }
+}
