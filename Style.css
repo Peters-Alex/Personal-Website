@@ -12,6 +12,7 @@ nav{
     list-style-type: squere;
     margin: 10px 20px;
 }
+/* */
 body{
     background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     size-adjust: 100px;
@@ -36,6 +37,11 @@ body{
     font-size: 30px;
     display: inline-block;
     margin-inline-end: 5%;
+    border-radius: 30%;
+    background-color: rgb(170, 214, 214);
+}
+.flex-container > div {
+border-radius: 1rem;
 }
 .collab{
     background-color: bisque;
